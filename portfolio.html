@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header container">
+        <div class="container header-container">
+            <nav class="navigation">
+                <a class="logo link logo-margin" href="./"> <span class="logo__span">
+                        Web</span>Studio
+                </a>
+                <ul class="menu list">
+                    <li class="menu__item current">
+                        <a class="menu__item-link link current" href="./index.html">Студия</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link link " href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <ul class="menu-contact list">
+                <li class="menu-contact__link">
+                    <a class="mail-link link header-link" href="mailto:info@devstudio.com">
+                        <svg class="contact-link-item header-link" width="16px" height="12px">
+                            <use href="./images/sprite.svg#envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="menu-contact__link">
+                    <a class="tel-link link header-link" href="tell:+380961111111">
+                        <svg class="contact-link-item header-link" width="10px" height="16px">
+                            <use href="./images/sprite.svg#smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container btn-container">
+            <ul class="portfolio-btn-list list">
+                <li class="portfolio-btn-item"><button class="modal-btn portfolio-btn btn" type="button">Все</button>
+                </li>
+                <li class="portfolio-btn-item"><button class="modal-btn portfolio-btn btn"
+                        type="button">Веб-сайты</button></li>
+                <li class="portfolio-btn-item"><button class="modal-btn portfolio-btn btn"
+                        type="button">Приложения</button></li>
+                <li class="portfolio-btn-item"><button class="modal-btn portfolio-btn btn" type="button">Дизайн</button>
+                </li>
+                <li class="portfolio-btn-item"><button class="modal-btn portfolio-btn btn"
+                        type="button">Маркетинг</button></li>
+            </ul>
+        </div>
+        <div class="container portfolio-conteiner">
+            <ul class="portfolio-list list">
+                <li class="portfolio-box">
+                    <a href="#" class="portfolio-box-link link">
+                        <div class="portfolio-box-img-wraper">
+                            <img src="./images/portfolio/img.jpg" alt="Веб-сайт Технокряк">
+                            <p class="overlay">
+                                Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                                платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                            </p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h3 class="portfolio-imeg-title">Технокряк</h3>
+                            <p class="portfolio-image-decription">Веб-сайт</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-box">
+                    <a href="#" class="portfolio-box-link link">
+                        <div class="portfolio-box-img-wraper">
+                            <img src="./images/portfolio/img(1).jpg" alt="Постер New Orlean vs Golden Star" height="294"
+                                width="370">
+                            <p class="overlay">
+                                Golden State Warriors New Orleans Pelicans текущий результат (а также онлайн видео*)
+                                стартует 15 мая 2021 г. в 01:30
+                                время UTC на Chase Center стадионе, San Francisco в городе, USA в NBA - USA. На
+                                SofaScore
+                            </p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h3 class="portfolio-imeg-title" lang="en">Постер New Orlean vs Golden Star</h3>
+                            <p class="portfolio-image-decription">Дизайн</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-box">
+                    <a href="#" class="portfolio-box-link link">
+                        <div class="portfolio-box-img-wraper">
+                            <img src="./images/portfolio/img(2).jpg" alt="Приложение Ресторан Seafood" height="294"
+                                width="370">
+                            <p class="overlay">
+                                Концепция ресторана не терпит компромиссов – исключительно высококачественные
+                                морепродукты. Здесь не подают мясо или
+                                птицу. Мы расскажем, какие уникальные специалитеты искать в меню и как безошибочно
+                                определить качественный продукт
+                            </p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h3 class="portfolio-imeg-title">Ресторан Seafood</h3>
+                            <p class="portfolio-image-decription">Приложение</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-box">
+                    <a href="#" class="portfolio-box-link link">
+                        <div class="portfolio-box-img-wraper">
+                            <img src="./images/portfolio/img(3).jpg" alt="Проект Prime" height="294" width="370">
+                            <p class="overlay">
+                                Коллекция Prime воспроизводит несравненную красоту оникса. Параллельно расположенные
+                                слои создают восхитительный
+                                полосатый окрас. Глубокий рисунок минерала успокаивает и заряжает энергией.
+                            </p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h3 class="portfolio-imeg-title">Проект Prime</h3>
+                            <p class="portfolio-image-decription">Маркетинг</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-box">
+                    <a href="#" class="portfolio-box-link link">
+                        <div class="portfolio-box-img-wraper">
+                            <img src="./images/portfolio/img(4).jpg" alt="Приложение Проект Boxes" height="294"
+                                width="370">
+                            <p class="overlay">
+
+                            </p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h3 class="portfolio-imeg-title">Проект Boxes</h3>
+                            <p class="portfolio-image-decription">Приложение</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-box">
+                    <a href="#" class="portfolio-box-link link">
+                        <div class="portfolio-box-img-wraper">
+                            <img src="./images/portfolio/img(5).jpg" alt="Веб-сайт Inspiration has no Borders"
+                                height="294" width="370">
+                            <p class="overlay">
+
+                            </p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h3 class="portfolio-imeg-title" lang="en">Inspiration has no Borders</h3>
+                            <p class="portfolio-image-decription">Веб-сайт</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-box">
+                    <a href="#" class="portfolio-box-link link">
+                        <div class="portfolio-box-img-wraper">
+                            <img src="./images/portfolio/img(6).jpg" alt="Издание Limited Edition" height="294"
+                                width="370">
+                            <p class="overlay">
+                                Специальные издания широко используются при выпуске музыки, фильмов и видеоигр. Компании
+                                широко используют специальные
+                                издания и постепенно их улучшают, чтобы спрос оставался.
+                            </p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h3 class="portfolio-imeg-title">Издание Limited Edition</h3>
+                            <p class="portfolio-image-decription">Дизайн</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-box">
+                    <a href="#" class="portfolio-box-link link">
+                        <div class="portfolio-box-img-wraper">
+                            <img src="./images/portfolio/img(7).jpg" alt="Проект LAB" height="294" width="370">
+                            <p class="overlay">
+                                We are creators of change. Our team deliver projects that make a meaningful impact in
+                                the lives of Tasmanians.
+                            </p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h3 class="portfolio-imeg-title">Проект LAB</h3>
+                            <p class="portfolio-image-decription">Маркетинг</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-box">
+                    <a href="#" class="portfolio-box-link link">
+                        <div class="portfolio-box-img-wraper">
+                            <img src="./images/portfolio/img(8).jpg" alt="Приложение Growing Business" height="294"
+                                width="370">
+                            <p class="overlay">
+                                So you have a business and business is good. Now how do you make it better? The best
+                                businesses are always looking for
+                                ways to improve, whether that’s offering better products or adopting more efficient
+                                processes. Here’s how you can take
+                                your business to the next level.
+                            </p>
+                        </div>
+                        <div class="portfolio-text">
+                            <h3 class="portfolio-imeg-title">Growing Business</h3>
+                            <p class="portfolio-image-decription">Приложение</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="address-container">
+                    <div class="footer-logo">
+                        <a class="logo link" href="./"> <span class="logo-span">Web</span>Studio</a>
+                    </div>
+
+                    <!-- CONTACT INFORMATION -->
+                    <address id="contact" class="address">
+                        <ul class="list address-container">
+                            <li class="address-item-footer"><a class="address-link link"
+                                    href="https://goo.gl/maps/P6TTpQ2vvZoRG6vYA" target="_blank"
+                                    rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+                            <li class="address-item-footer"><a class="mail-link link footer-link"
+                                    href="mailto:info@example.com">info@example.com</a></li>
+                            <li class="address-item-footer"><a class="tel-link link footer-link"
+                                    href="tell:+380961111111">+38 096 111 11 11</a></li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="social">
+                    <h2 class="footer-title">присоединяйтесь</h2>
+                    <ul class="social-list list">
+                        <li href="#" class="social-list-item">
+                            <a href="#" class="social-list-link theme-dark">
+                                <svg class="social-list-icon theme-dark">
+                                    <use href="./images/sprite.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li href="#" class="social-list-item">
+                            <a href="#" class="social-list-link theme-dark">
+                                <svg class="social-list-icon theme-dark">
+                                    <use href="./images/sprite.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li href="#" class="social-list-item">
+                            <a href="#" class="social-list-link theme-dark">
+                                <svg class="social-list-icon theme-dark">
+                                    <use href="./images/sprite.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li href="#" class="social-list-item">
+                            <a href="#" class="social-list-link theme-dark">
+                                <svg class="social-list-icon theme-dark">
+                                    <use href="./images/sprite.svg#linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mail-input">
+                    <form action="#" class="footer-form">
+                        <label class="footer-form-field">
+                            <p class="footer-form-lable">
+                                Подпишитесь на рассылку
+                            </p>
+                            <span class="modal-form-input-wrapper">
+                                <input type="mail" class="footer-form-inpt" name="user-mail" pattern="[^ @]*@[^ @]*"
+                                    placeholder="E-mail" required>
+                                <button type="submit" class="footer-form-btn">
+                                    <div class="button-lable">
+                                        Подписаться
+                                        <svg class="footer-btn-icon">
+                                            <use href="./images/sprite.svg#send"></use>
+                                        </svg>
+                                    </div>
+
+                                </button>
+                    </form>
+                </div>
+            </div>
+
+    </footer>
+
+</body>
+
+</html>

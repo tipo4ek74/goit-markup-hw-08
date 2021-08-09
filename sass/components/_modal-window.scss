@@ -1,0 +1,32 @@
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /*width: 528px;*/
+  /*height: 580px;*/
+  background-color: var(--logo-color);
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  padding: 40px;
+}
+
+.close-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: tranpatent;
+  cursor: pointer;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-btn:focus,
+.close-btn:hover {
+  fill: var(--accent-color);
+}

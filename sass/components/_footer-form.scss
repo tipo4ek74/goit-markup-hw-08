@@ -1,0 +1,61 @@
+.mail-input {
+  display: flex;
+  align-items: center;
+  width: 570px;
+  margin-left: 93px;
+}
+
+.footer-form-inpt {
+  display: inline-block;
+  width: 358px;
+  height: 50px;
+}
+
+.footer-form-btn {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.88;
+  padding: 10px 29px;
+  background-color: var(--accent-color);
+  color: var(--logo-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-left: 12px;
+  border: none;
+}
+
+.button-lable {
+  display: flex;
+  align-items: center;
+}
+
+.footer-btn-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;*/
+}
+
+.footer-form-lable {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--logo-color);
+
+  margin-bottom: 20px;
+}
+
+.footer-form-inpt {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0, 0);
+  padding-left: 16px;
+}
