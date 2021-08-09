@@ -3,7 +3,7 @@
   /*flex-direction: column;*/
   width: 210px;
   height: 92px;
-  margin-top: 30px;
+  margin-bottom: 30px;
   fill: var(--description-color);
   border: 1px solid;
   color: var(--description-color);
@@ -28,6 +28,7 @@
 @media screen and (min-width: 1200px) {
   .client-item {
     width: 170px;
+    margin-bottom: 0;
   }
 }
 

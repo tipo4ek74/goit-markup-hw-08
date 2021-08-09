@@ -4,6 +4,19 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section {
+  padding-top: 60px;
+}
+
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -29,16 +42,10 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-}
 
-.section {
-  padding-top: 60px;
-}
-
-@media screen and (min-width: 768px) {
-}
-
-@media screen and (min-width: 1200px) {
+  .section-title {
+    margin-bottom: 50px;
+  }
   .section {
     padding-top: 94px;
   }

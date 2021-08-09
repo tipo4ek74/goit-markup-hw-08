@@ -1,14 +1,21 @@
 .mail-input {
   display: flex;
+  justify-content: center;
   align-items: center;
-  width: 570px;
-  margin-left: 93px;
+  width: 450px;
 }
+/* .mail-input {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  margin-left: 93px;
+} */
 
 .footer-form-inpt {
   display: inline-block;
-  width: 358px;
+  width: 450px;
   height: 50px;
+  margin-bottom: 20px;
 }
 
 .footer-form-btn {
@@ -59,3 +66,7 @@
   background-color: rgba(0, 0, 0, 0);
   padding-left: 16px;
 }
+
+/* .footer-form {
+  margin: 0 auto;
+} */
