@@ -1,6 +1,13 @@
 .social-list {
   display: flex;
   justify-content: space-between;
+  padding: 0 90px;
+}
+
+@media screen and (min-width: 1200px) {
+  .social-list {
+    padding: 0;
+  }
 }
 
 .social-list-icon {

@@ -1,3 +1,9 @@
+@media screen and (max-width: 1200px) {
+  .about.section {
+    display: none;
+  }
+}
+
 .about-container {
   display: flex;
   justify-content: space-between;
