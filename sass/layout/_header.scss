@@ -1,6 +1,6 @@
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -169,6 +169,10 @@
   .menu-contact__link:not(:last-child) {
     margin-right: 0;
   }
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .menu-contact__link {
@@ -179,5 +183,9 @@
     &:not(:last-child) {
       margin-right: 30px;
     }
+  }
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
   }
 }

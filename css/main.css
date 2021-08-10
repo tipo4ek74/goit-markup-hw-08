@@ -97,7 +97,7 @@ body {
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    width: 450px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -106,7 +106,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 738px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -115,7 +115,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    width: 1170px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -523,6 +523,7 @@ body {
   width: 16px;
   height: 15px;
   background-image: url(../images/check-box.svg);
+  fill: black;
   cursor: pointer;
   -webkit-transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -598,8 +599,8 @@ body {
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -795,6 +796,10 @@ body {
   .menu-contact__link:not(:last-child) {
     margin-right: 0;
   }
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -811,6 +816,10 @@ body {
   }
   .menu-contact__link:not(:last-child) {
     margin-right: 30px;
+  }
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
   }
 }
 
@@ -930,6 +939,8 @@ body {
 
 .mobile-menu__btn {
   position: absolute;
+  height: 40px;
+  width: 40px;
   top: 10px;
   right: 15px;
   background-color: transparent;
@@ -1311,7 +1322,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .team-box {
-    width: 354px;
+    width: 330px;
     height: 536px;
   }
 }
