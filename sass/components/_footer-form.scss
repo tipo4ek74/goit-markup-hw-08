@@ -1,24 +1,9 @@
 .mail-input {
-  /* display: flex;
-  align-items: center;
-  
-  justify-content: center;
-  align-items: center; */
   text-align: center;
-  width: 450px;
+  width: 94%;
 }
-/* .mail-input {
-  display: flex;
-  align-items: center;
-  width: 450px;
-  margin-left: 93px;
-} */
 
 .footer-form-inpt {
-  display: inline-block;
-  width: 450px;
-  height: 50px;
-  margin-bottom: 20px;
 }
 
 .footer-form-btn {
@@ -61,6 +46,11 @@
 }
 
 .footer-form-inpt {
+  display: inline-block;
+  width: 94%;
+  height: 50px;
+  margin-bottom: 20px;
+
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -73,6 +63,17 @@
 /* .footer-form {
   margin: 0 auto;
 } */
+
+@media screen and (min-width: 480px) {
+  .footer-form-inpt {
+    display: inline-block;
+    width: 450px;
+  }
+
+  .mail-input {
+    width: 450px;
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .footer-form-inpt {
