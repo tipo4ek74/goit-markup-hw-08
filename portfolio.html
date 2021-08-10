@@ -37,6 +37,12 @@
                 </ul>
             </nav>
 
+            <button type="button" class="burger-btn" data-menu-open>
+                <svg class="burger-btn__icon">
+                    <use href="./images/sprite.svg#burger"></use>
+                </svg>
+            </button>
+
             <ul class="menu-contact list">
                 <li class="menu-contact__link">
                     <a class="mail-link link header-link" href="mailto:info@devstudio.com">
@@ -54,6 +60,54 @@
                         +38 096 111 11 11</a>
                 </li>
             </ul>
+        </div>
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu__container">
+                <button type="button" class="mobile-menu__btn" data-menu-close>
+                    <svg class="mobile-menu__btn-icon">
+                        <use href="./images/sprite.svg#close"></use>
+                    </svg>
+                </button>
+                <ul class="nav-list list">
+                    <li class="nav-list-item">
+                        <a class="nav-list_link link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-list_link link menu__link_active-link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-list_link link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+
+                <ul class="menu-list list">
+                    <li class="menu-list__item">
+                        <a class="menu-list_tel link" href="tel:+380674010151">+38 067 401 01 51</a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a class="menu-list_mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+
+                <ul class="menu-social-list list">
+                    <li class="menu-social-list__item">
+                        <a class="menu-social-list__link link" href="">Instagram
+                        </a>
+                    </li>
+                    <li class="menu-social-list__item">
+                        <a class="menu-social-list__link link" href="">Twitter
+                        </a>
+                    </li>
+                    <li class="menu-social-list__item">
+                        <a class="menu-social-list__link link" href="">Facebook
+                        </a>
+                    </li>
+                    <li class="menu-social-list__item">
+                        <a class="menu-social-list__link link" href="">LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -307,7 +361,8 @@
             </div>
 
     </footer>
-
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
