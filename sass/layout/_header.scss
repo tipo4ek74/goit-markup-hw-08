@@ -147,10 +147,6 @@
   /*text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
 }
 
-.logo-margin {
-  margin-right: 93px;
-}
-
 .logo__span {
   color: var(--accent-color);
 }
@@ -173,7 +169,11 @@
     padding-top: 24px;
     padding-bottom: 25px;
   }
+  .logo-margin {
+    margin-right: 88px;
+  }
 }
+
 @media screen and (min-width: 1200px) {
   .menu-contact__link {
     display: flex;
@@ -187,5 +187,8 @@
   .header {
     padding-top: 24px;
     padding-bottom: 25px;
+  }
+  .logo-margin {
+    margin-right: 93px;
   }
 }
