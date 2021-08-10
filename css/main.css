@@ -178,7 +178,6 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 0 60px;
   }
 }
 
@@ -1503,9 +1502,8 @@ body {
 }
 
 .social-list.footer-social {
-  /* width: 206px;
-  padding: 0; */
-  padding: 0 122px;
+  width: 206px;
+  margin: 0 122px;
   margin-bottom: 60px;
 }
 
@@ -1530,9 +1528,6 @@ body {
             align-items: center;
     text-align: center;
   }
-  .social-list.footer-social {
-    padding: 0;
-  }
   .footer-wrapper {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -1545,6 +1540,10 @@ body {
   }
   .address-container {
     padding-right: 165px;
+  }
+  .social-list.footer-social {
+    width: 206px;
+    margin: 0;
   }
 }
 
@@ -1566,6 +1565,9 @@ body {
   }
   .footer-form-inpt {
     margin-bottom: 0;
+  }
+  .address-list {
+    margin-bottom: 0px;
   }
 }
 

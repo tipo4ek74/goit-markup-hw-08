@@ -53,9 +53,8 @@
 }
 
 .social-list.footer-social {
-  /* width: 206px;
-  padding: 0; */
-  padding: 0 122px;
+  width: 206px;
+  margin: 0 122px;
   margin-bottom: 60px;
 }
 
@@ -76,9 +75,6 @@
     text-align: center;
   }
 
-  .social-list.footer-social {
-    padding: 0;
-  }
   .footer-wrapper {
     display: inline-flex;
     flex-wrap: wrap;
@@ -86,6 +82,10 @@
   }
   .address-container {
     padding-right: 165px;
+  }
+  .social-list.footer-social {
+    width: 206px;
+    margin: 0;
   }
 }
 
@@ -101,5 +101,8 @@
   }
   .footer-form-inpt {
     margin-bottom: 0;
+  }
+  .address-list {
+    margin-bottom: 0px;
   }
 }
