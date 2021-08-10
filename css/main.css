@@ -1506,10 +1506,6 @@ body {
   margin-bottom: 60px;
 }
 
-.footer-social {
-  margin-left: 70px;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-container {
     margin: 0 auto;
@@ -1578,6 +1574,9 @@ body {
   }
   .address-list {
     margin-bottom: 0px;
+  }
+  .footer-social {
+    margin-left: 70px;
   }
 }
 
