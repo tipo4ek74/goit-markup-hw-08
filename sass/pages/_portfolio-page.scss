@@ -14,6 +14,7 @@
 
 .portfolio-btn-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -37,8 +38,8 @@
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
+  flex-direction: column;
+  align-content: center;
 }
 
 .portfolio-box-link {
@@ -49,6 +50,11 @@
   display: block;
   position: relative;
   overflow: hidden;
+}
+
+.portfolio-box-img {
+  height: "294";
+  width: "370";
 }
 
 .overlay {
@@ -113,4 +119,16 @@
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--description-color);
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-list {
+    flex-direction: row;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+
+  .portfolio-box {
+    width: 354px;
+  }
 }

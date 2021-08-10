@@ -637,6 +637,18 @@ body {
   margin-right: 30px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .menu-contact {
+    display: block;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+  }
+  .menu-contact__link:not(:last-child) {
+    margin-right: 0;
+  }
+}
+
 .menu__item:not(:last-child) {
   margin-right: 50px;
 }
@@ -769,7 +781,7 @@ body {
   color: var(--accent-color);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .menu,
   .menu-contact {
     display: none;
@@ -1667,6 +1679,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1697,8 +1711,12 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .portfolio-box-link {
@@ -1709,6 +1727,11 @@ body {
   display: block;
   position: relative;
   overflow: hidden;
+}
+
+.portfolio-box-img {
+  height: "294";
+  width: "370";
 }
 
 .overlay {
@@ -1780,5 +1803,19 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--description-color);
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+  .portfolio-box {
+    width: 354px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
