@@ -164,3 +164,9 @@
 .logo__span {
   color: var(--accent-color);
 }
+@media screen and (max-width: 768px) {
+  .menu,
+  .menu-contact {
+    display: none;
+  }
+}
