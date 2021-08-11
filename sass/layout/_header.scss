@@ -94,6 +94,9 @@
   /*background-image: url();*/
 }
 
+@media screen and (min-width: 768px) {
+}
+
 .contact-link-item {
   display: flex;
   align-items: center;
@@ -124,7 +127,7 @@
     margin-right: 10px;
 }*/
 
-.menu__link.current::after {
+.menu__item-link.current::after {
   content: "";
   display: block;
   width: auto;
@@ -166,11 +169,14 @@
     margin-right: 0;
   }
   .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
   .logo-margin {
     margin-right: 88px;
+  }
+  .menu__item-link.current::after {
+    top: 38px;
   }
 }
 
