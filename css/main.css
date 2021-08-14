@@ -392,7 +392,7 @@ body {
   display: block;
   cursor: pointer;
   margin-top: 4px;
-  width: 92%;
+  /* width: 92%; */
 }
 
 .modal-form-field {
@@ -1354,10 +1354,10 @@ body {
   .footer-container {
     display: flex;
   }
-  .modal-form-input-wrapper {
+  /* .modal-form-input-wrapper {
     display: flex;
     width: 570px;
-  }
+  } */
   .footer-form-inpt {
     margin-bottom: 0;
   }
